@@ -59,7 +59,7 @@ function placeInTable(y, x) {
     // creates div element, assigns it class of "piece", assigns it class of current player, appends it to board
     const playedPiece = document.createElement("div");
     playedPiece.classList.add("piece");
-    playedPiece.classlist.add(`p${currPlayer}`);
+    playedPiece.classList.add(`p${currPlayer}`);
     playedPiece.style.top = -50 * (y + 2);
 
     const spot = document.getElementById(`${y}-${x}`);
